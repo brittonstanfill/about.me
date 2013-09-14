@@ -1,0 +1,73 @@
+/* Stylesheet Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+body{
+	background:#000 url(background.png) no-repeat;
+	background-size:cover;
+}
+
+.menu {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.menu li {
+	display:inline;
+	float:left;
+	padding-left:40px;
+}
+
+.top {
+	position: fixed;
+	top:0px;
+	background:#666;
+	width:100%;
+	font-size: .9em;
+	color:whitesmoke;
+	padding:10px 0px;
+	border-bottom:1px solid #666;
+}
+
+.photo-identity img{
+	display:none;
+	width:100%;
+	height: 100%;
+}
+
+.profile-wrapper {	
+	padding:50px;
+	color:#444;
+	background:rgba(255,255,255,.8);
+	max-width:35%;
+	margin:80px;
+}
+
+h1.name {
+	font-size:3em;
+	font-weight: bold;
+	color:#222;
+}
+
+h1.title {
+	font-size:1.3em;
+}
+
+.bio {
+	font-weight: 300;
+	padding-top:10px;
+	line-height: 1.5em;
+}
